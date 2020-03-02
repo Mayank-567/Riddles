@@ -1,0 +1,107 @@
+body{
+    padding: 0em;
+    margin: 0em;
+    box-sizing: border-box;
+}
+/* grid */
+
+
+.navbar{
+    /* position: fixed; */
+    /* b:0%; */
+    /* left:0%; */
+    /* width: 100%; */
+    /* width: 100%; */
+
+    /* background-color: teal; */
+    /* display: inline; */
+}
+.navbar ul{
+    text-decoration: none;
+    /* padding: 2em; */
+    /* margin:2em; */
+}
+.navbar li{
+    display: inline;
+    /* float: left; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin: 0.9em; */
+    /* padding: 0.37em; */
+    font-size: 1em;
+}
+.navbar li:hover{
+    background-color: turquoise;
+} 
+/* .search{ */
+    /* box-sizing: border-box; */
+    /* border: tomato; */
+    /* float:right; */
+    /* margin-left: 2em; */
+    /* padding-left: 2em; */
+    /* height: 2em; */
+    /* font-; */
+    /* background-color: turquoise; */
+/* } */
+ .section{
+    min-width: 90%;
+    min-height: auto;
+    background-color: wheat;
+} 
+
+
+
+.head{
+    grid-area: header;
+    min-height: 5.5em;
+}
+.main{
+    grid-area: main;
+    /* text-align: center; */
+}
+.menu{
+    grid-area: menu;
+    margin-top: 2em;
+    /* position: ; */
+    min-height: 10em;
+}
+.menu li:hover{
+    background-color: teal;
+}
+.footer{
+    min-height: 5em;
+    grid-area: footer;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 'menu header header header header' 
+                          'menu  main main main main ' 
+                          'footer footer footer footer footer';
+    grid-gap: 0.5em;
+    background-color:aqua;
+    padding: 0.7em;
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* min-height: 10px; */
+    /* text-align: center; */
+    /* padding: 0.3em 0 0.2em 0; */
+    font-size: 1.4em;
+}
+
+/* discription for main page */
+.article{
+    padding: 0.1em;
+    /* border: 0.6em solid; */
+    /* box-shadow: ; */
+    box-shadow:0 10px 20px rgba(0,0,0,0.2), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#log{
+    /* size: 3em; */
+    font-size: 0.7em;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-color:aqua;
+}
